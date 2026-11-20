@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_while" id="W]8KcwymR0AYQ3dYxLh{" disabled-reasons="pxt_automatic_disabled" x="1070" y="-259"><value name="COND"><shadow type="logic_boolean" id="{#RA7lC/h{!re)ufgtWJ" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">FALSE</field></shadow></value></block><block type="device_forever" id="`pz9j$OYnK[!VY}%Pflb" x="542" y="-178"><statement name="HANDLER"><block type="controls_if" id="{!Qvu:8T3-m.`7kPbnb."><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="`)]V%7mqVm%^YPxUj~`z" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="ZAQ~8ATm/?O!G.SRkZQp"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_show_leds" id="_Z.U?PUf+AhIxU/0eH-G"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_pause" id="v2uv[(fRSx`#A^MpgZSQ"><value name="pause"><shadow type="timePicker" id="EuK}xpftz(_.x3^K9y$Q"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="$sd##A(r.^nH*Nk1Yy$d"><next><block type="device_pause" id="n4-U3ztV}}@%!,|76:X2"><value name="pause"><shadow type="timePicker" id="Kd4~^(}mVG%4/P+l8h$6"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="qZ[~5UY-v?{P=nf@n$ku"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_pause" id="^JcaByR`g7o1,)]2?Pne"><value name="pause"><shadow type="timePicker" id="I+i+RYzMX-xXVa])yXC9"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="S3l=Y+OHrOqx!01L[F$g"><next><block type="device_pause" id="q,JB30rw}0a2RpL5p;xx"><value name="pause"><shadow type="timePicker" id="{@D0E8bo4HVOuG1wr$+o"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id="{EfJ$Dt1{(l0!P;L#Xm2"></block></statement></block></statement></block><block type="device_forever" id="5;4Ckckz3T6mcRC(C/^r" x="0" y="0"><statement name="HANDLER"><block type="device_while" id="Cks%=q88pop+ySNlO4YT"><value name="COND"><shadow type="logic_boolean" id="8l_po|c@p2gUVc]dH*JM"><field name="BOOL">FALSE</field></shadow><block type="device_get_button2" id="3inp`0f}#!*yx7L[!OkP"><field name="NAME">Button.A</field></block></value><statement name="DO"><block type="device_show_leds" id="/Tafo@{u:%;zygD9vGL1"><field name="LEDS">`
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_pause" id="CK.~pt}9RI2O)NKCBA`f"><value name="pause"><shadow type="timePicker" id="KvOpCKTBwN/TodW!`vcF"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="j%7f:aL|)T|#u%!GW?;f"><next><block type="device_pause" id="lGpRpYZ7Dz3jSD_GF0eS"><value name="pause"><shadow type="timePicker" id="ja1Gv^{8nrU=?uHWnO~="><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="an4_fG#1yMo,d[l{j|GX"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="uQ.N!yEa}=R#uUYL;W?@"><value name="pause"><shadow type="timePicker" id="Q,%fw{6_^Vb0~.3xIp%f"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id="|XoR!_AXg`/go((}$5UQ"><next><block type="device_pause" id="$`UEHs![4[y6~+I{k!Fb"><value name="pause"><shadow type="timePicker" id="ZYk!O;YDwk$-t2U}V`(]"><field name="ms">500</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_forever" id="8e|x%Pbl(C|MVn}zy#HS" x="375" y="-2"></block></xml>
